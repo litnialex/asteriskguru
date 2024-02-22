@@ -1,0 +1,4 @@
+site_name: Asterisk Guru
+use_directory_urls: false
+theme:
+  name: material
