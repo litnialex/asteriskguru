@@ -24,3 +24,5 @@ To be continued...
 
 [formula]: https://github.com/litnialex/asterisk-formula
 [salt-call]: https://docs.saltproject.io/en/latest/ref/cli/salt-call.html
+[ansible-playbook]: https://github.com/litnialex/ansible-role-asterisk
+
