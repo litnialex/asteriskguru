@@ -1,7 +1,3 @@
----
-title: Install Asterisk IP-PBX with Saltstack or Ansible
----
-
 # Install Asterisk
 
 ## Saltstack
@@ -17,7 +13,7 @@ salt-call -l info --local --file-root=asterisk-formula/ state.apply asterisk
 
 
 ## Ansible
-This method describes using Ansible playbook to install Asterisk.
+This method describes using [Ansible playbook][ansible-playbook] to install Asterisk.
 
 To be continued...
 
