@@ -9,4 +9,4 @@ The site is generated from markdown files under [litnialex/asteriskguru][asteris
 [gh-pages]: https://pages.github.com/
 [asterisk]: https://www.asterisk.org/
 
-You can contact me via email: litnialex@gmail.com
+You can contact me via email: <litnialex@gmail.com>

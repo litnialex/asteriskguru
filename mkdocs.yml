@@ -1,4 +1,11 @@
 site_name: Asterisk Guru
+site_description: Asterisk IP-PBX Installation, Configuration Guide, Howto, Best Practices, Security
+site_url: https://asterisk.guru
+repo_url: https://github.com/litnialex/asteriskguru/
 use_directory_urls: false
 theme:
   name: material
+  plugins:
+    - search
+    - emailprotect
+

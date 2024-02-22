@@ -15,6 +15,8 @@ salt-call -l info --local --file-root=asterisk-formula/ state.apply asterisk
 ## Ansible
 This method describes using Ansible playbook to install Asterisk.
 
+To be continued...
+
 
 [formula]: https://github.com/litnialex/asterisk-formula
 [salt-call]: https://docs.saltproject.io/en/latest/ref/cli/salt-call.html
