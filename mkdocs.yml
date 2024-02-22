@@ -8,4 +8,7 @@ theme:
   plugins:
     - search
     - emailprotect
+nav:
+  - Home: index.md
+  - Install Asterisk: install.md
 

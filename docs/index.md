@@ -1,22 +1,12 @@
-# Install Asterisk
+# About this site
 
-## Saltstack
-This method describes using Saltstack formula [asterisk-formula][formula] to install Asterisk.
+This site is a collection of how-tos and best practices about [Asterisk IP-PBX][asterisk] and related software from the perspective of a system administrator with 10+ years of experience.
 
-We will use [salt-call][salt-call] command, a standalone saltstack minion process to process `asterisk-formula` and install asterisk.
+The site is generated from markdown files under [litnialex/asteriskguru][asteriskguru] repository using [MkDocs][mkdocs] and hosted on [GitHub Pages][gh-pages].
 
-```sh
-pip3 install salt
-git clone https://github.com/litnialex/asterisk-formula.git
-salt-call -l info --local --file-root=asterisk-formula/ state.apply asterisk
-```
+[asteriskguru]: https://github.com/litnialex/asteriskguru
+[mkdocs]: https://www.mkdocs.org/
+[gh-pages]: https://pages.github.com/
+[asterisk]: https://www.asterisk.org/
 
-
-## Ansible
-This method describes using Ansible playbook to install Asterisk.
-
-To be continued...
-
-
-[formula]: https://github.com/litnialex/asterisk-formula
-[salt-call]: https://docs.saltproject.io/en/latest/ref/cli/salt-call.html
+You can contact me via email: <litnialex@gmail.com>
